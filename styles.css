@@ -1,0 +1,86 @@
+body {
+    background-color: powderblue;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+h1 {
+    color: blue;
+    font-family: verdana;
+    font-size: 300%;
+}
+p {
+    color: red;
+    font-family: courier;
+    font-size: 160%;
+}
+h3 {
+    color: tomato;
+    font-family: bold;
+}
+a:link{
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+}
+tr:hover {
+    background-color: #D6EEEE;
+}
+#box{
+    text-align: justify;
+    background-color: lightgrey;
+    width: 300px;
+    border: 50px solid green;
+    padding: 200px;
+    margin: 150px;
+}
+.star{
+    background-color: aqua;
+}
+.blog{
+    height: auto;
+    width: auto;
+    background-color: brown;
+    font-family: tahoma;
+}
+#ghat{
+    color: cornsilk;
+}
+#jao{
+    color: cyan;
+}
+.mail{
+    border: 2px solid black;
+    outline: #4CAF50 solid 10px;
+    margin: auto;  
+    padding: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 5px red;
+}
